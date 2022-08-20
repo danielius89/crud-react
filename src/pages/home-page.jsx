@@ -34,7 +34,6 @@ const HomePage = () => (
           <Grid container spacing={2}>
             <Grid item padding={2} xs={12} md={8} sx={{ bgcolor: '#eee' }}>
 
-              <Item>Turinys</Item>
               <Grid container spacing={2} paddingTop={2}>
 
                 <Grid item xs={12} md={6} lg={6}>
@@ -61,9 +60,16 @@ const HomePage = () => (
 
                     </Typography>
 
-                    <Box component="div" sx={{ display: 'inline' }}>autorius</Box>
-                    <Box component="div" sx={{ display: 'inline' }}>inldatane</Box>
-                    <Box component="div" sx={{ display: 'inline' }}>komentarai</Box>
+                    <Box component="div" sx={{ display: 'inline', marginRight: '15px', fontWeight: '700' }}>Autorius</Box>
+                    <Box
+                      component="div"
+                      sx={{
+                        display: 'inline', marginRight: '15px', fontWeight: '400', fontStyle: 'italic',
+                      }}
+                    >
+                      2022-08-20
+                    </Box>
+
                   </Item>
                 </Grid>
 

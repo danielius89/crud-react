@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "crud-project",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,10 +14,9 @@
     "react-scripts": "5.0.1"
   },
   "scripts": {
-    "server": "json-server -w ./database.json -p 8000",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "eject": "react-scripts eject"
+    "server": "json-server -w ./database.json -p 8000"
   },
   "eslintConfig": {
     "extends": [
