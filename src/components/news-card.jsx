@@ -10,6 +10,10 @@ import Stack from '@mui/material/Stack';
 import MovieIcon from '@mui/icons-material/Movie';
 import VideogameAssetIcon from '@mui/icons-material/VideogameAsset';
 import LiveTvIcon from '@mui/icons-material/LiveTv';
+import ClearIcon from '@mui/icons-material/Clear';
+import EditIcon from '@mui/icons-material/Edit';
+
+import IconButton from '@mui/material/IconButton';
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -30,9 +34,12 @@ const NewsCard = ({
   img,
   author,
   date,
+  onDelete,
+  onEdit,
 }) => (
   <Grid item xs={12} md={6} lg={6}>
     <Item sx={{ textAlign: 'left' }}>
+
       <img
         src={img}
         alt="no alt"
@@ -76,7 +83,29 @@ const NewsCard = ({
       >
         {date}
       </Box>
-
+      <Box
+        component="div"
+        sx={{
+          gap: 1,
+          p: 2,
+          mt: 2,
+          backgroundColor: '#eee',
+        }}
+      >
+        <Typography component="div" variant="h5">Admin valdymas</Typography>
+        <br />
+        Redaguoti:
+        {' '}
+        <IconButton onClick={onEdit}>
+          <EditIcon />
+        </IconButton>
+        <br />
+        Ištrinti:
+        {' '}
+        <IconButton onClick={onDelete}>
+          <ClearIcon />
+        </IconButton>
+      </Box>
     </Item>
   </Grid>
 );

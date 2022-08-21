@@ -115,7 +115,7 @@ const App = () => {
                   >
                     <NewsForm
                       onSubmit={newsBeingEdited ? updateNews : createNews}
-                      formTitle={newsBeingEdited ? 'Puodelio redagavimas' : 'Naujienos įkėlimas'}
+                      formTitle={newsBeingEdited ? 'Naujienos redagavimas' : 'Naujienos įkėlimas'}
                       submitText={newsBeingEdited ? 'Atnaujinti' : 'Sukurti'}
                       color={newsBeingEdited ? 'warning' : 'success'}
                       initValues={newsBeingEdited}

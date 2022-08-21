@@ -1,28 +1,19 @@
 {
   "news": [
     {
-      "title": "gfdrg",
-      "categoryId": 1,
-      "img": "https://geekified.net/wp-content/uploads/2018/11/Aurora-Stan-Lee-Spider-Man-Marvel-RIP-Farewell.png",
-      "description": "rg",
-      "author": "gr",
-      "date": "rg",
-      "id": 1
-    },
-    {
       "title": "NewsTitle",
       "categoryId": 3,
       "img": "https://geekified.net/wp-content/uploads/2020/01/Oscars.png",
       "description": "Aprašymas",
       "author": "Danielius",
-      "date": "2022-05-04",
+      "date": "2022-06-04",
       "id": 2
     },
     {
       "title": "Pavadinimas",
       "categoryId": 2,
       "img": "https://geekified.net/wp-content/uploads/2020/03/Indy5.jpg",
-      "description": "aprasymas",
+      "description": "aprasymass",
       "author": "autorius",
       "date": "2022-05-05",
       "id": 3

@@ -1,4 +1,4 @@
-# Aunt cup page
+# Geekified.net news page for geeks
 
 ## install dependecies
 ```
