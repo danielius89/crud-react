@@ -100,7 +100,7 @@ const App = () => {
                       onSubmit={newsBeingEdited ? updateNews : createNews}
                       formTitle={newsBeingEdited ? 'Naujienos redagavimas' : 'Naujienos įkėlimas'}
                       submitText={newsBeingEdited ? 'Atnaujinti' : 'Sukurti'}
-                      color={newsBeingEdited ? 'warning' : 'success'}
+                      color={newsBeingEdited ? 'primary' : 'success'}
                       initValues={newsBeingEdited}
                     />
                   </Box>

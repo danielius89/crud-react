@@ -1,7 +1,7 @@
 {
   "news": [
     {
-      "title": "Naujienos pavadinimas",
+      "title": "NewsTitle",
       "categoryId": 3,
       "img": "https://geekified.net/wp-content/uploads/2020/01/Oscars.png",
       "description": "Aprašymas",

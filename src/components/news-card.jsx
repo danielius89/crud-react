@@ -11,7 +11,7 @@ import VideogameAssetIcon from '@mui/icons-material/VideogameAsset';
 import LiveTvIcon from '@mui/icons-material/LiveTv';
 import ClearIcon from '@mui/icons-material/Clear';
 import EditIcon from '@mui/icons-material/Edit';
-
+import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -91,19 +91,26 @@ const NewsCard = ({
           backgroundColor: '#eee',
         }}
       >
-        <Typography component="div" variant="h5">Admin valdymas</Typography>
-        <br />
-        Redaguoti:
-        {' '}
-        <IconButton onClick={onEdit}>
-          <EditIcon />
-        </IconButton>
-        <br />
-        Ištrinti:
-        {' '}
-        <IconButton onClick={onDelete}>
-          <ClearIcon />
-        </IconButton>
+        <Typography component="div" variant="h5" sx={{ marginBottom: 1 }}>News control panel</Typography>
+        <Grid container spacing={2}>
+          <Grid item xs={6}>
+            <Button variant="outlined" fullWidth onClick={onEdit}>
+              <strong>Edit</strong>
+              <IconButton>
+                <EditIcon sx={{ marginRight: 0 }} />
+              </IconButton>
+            </Button>
+          </Grid>
+          <Grid item xs={6}>
+            <Button variant="outlined" fullWidth onClick={onDelete}>
+              <strong>Delete</strong>
+              <IconButton>
+                <ClearIcon />
+              </IconButton>
+            </Button>
+          </Grid>
+        </Grid>
+        <Grid item xs={4} md={4} lg={4} />
       </Box>
     </Item>
   </Grid>
