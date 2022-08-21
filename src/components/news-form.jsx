@@ -49,14 +49,14 @@ const NewsForm = ({
       <Typography variant="h4" sx={{ textAlign: 'center', pb: 2 }}>{formTitle}</Typography>
       <Box sx={{ display: 'flex', flexDirection: 'column', gap: 3 }}>
         <TextField
-          label="Pavadinimas"
+          label="News title"
           fullWidth
           variant="filled"
           value={title}
           onChange={(event) => setTitle(event.target.value)}
         />
         <TextField
-          label="Kategorija"
+          label="Category"
           fullWidth
           select
           variant="filled"
@@ -68,14 +68,14 @@ const NewsForm = ({
           ))}
         </TextField>
         <TextField
-          label="Nuotraukos kelias"
+          label="Image path"
           fullWidth
           variant="filled"
           value={img}
           onChange={(event) => setImg(event.target.value)}
         />
         <TextField
-          label="Aprašymas"
+          label="Content"
           fullWidth
           variant="filled"
           multiline
@@ -84,14 +84,14 @@ const NewsForm = ({
           onChange={(event) => setDescription(event.target.value)}
         />
         <TextField
-          label="Autorius"
+          label="Author"
           fullWidth
           variant="filled"
           value={author}
           onChange={(event) => setAuthor(event.target.value)}
         />
         <TextField
-          label="Data"
+          label="Date"
           fullWidth
           variant="filled"
           value={date}
