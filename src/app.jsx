@@ -1,18 +1,10 @@
 import * as React from 'react';
-import { styled } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import { Box, Modal, Grid } from '@mui/material/';
 import Container from '@mui/material/Container';
-// import MovieIcon from '@mui/icons-material/Movie';
-// import NewspaperIcon from '@mui/icons-material/Newspaper';
-// import Chip from '@mui/material/Chip';
-// import Stack from '@mui/material/Stack';
-import Paper from '@mui/material/Paper';
-// import Typography from '@mui/material/Typography';
 import Header from './components/header';
 import NewsForm from './components/news-form';
 import NewsCard from './components/news-card';
-// import HomePage from './pages/home-page';
 import NewsService from './services/news-service';
 
 const App = () => {
@@ -58,15 +50,6 @@ const App = () => {
   React.useEffect(() => {
     fetchAllNews();
   }, []);
-
-  // Stylized item
-  /* const Item = styled(Paper)(({ theme }) => ({
-    backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
-    ...theme.typography.body2,
-    padding: theme.spacing(1),
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
-  })); */
 
   return (
     <>
