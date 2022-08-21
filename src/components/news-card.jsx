@@ -6,7 +6,6 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Chip from '@mui/material/Chip';
 import Stack from '@mui/material/Stack';
-// import CssBaseline from '@mui/material/CssBaseline';
 import MovieIcon from '@mui/icons-material/Movie';
 import VideogameAssetIcon from '@mui/icons-material/VideogameAsset';
 import LiveTvIcon from '@mui/icons-material/LiveTv';
