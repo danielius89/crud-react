@@ -4,18 +4,20 @@ const formatNews = ({
   id,
   title,
   description,
-  price,
   img,
+  author,
+  date,
   categoryId,
   category,
 }) => ({
   id,
   title,
   description,
-  price,
   img,
+  author,
+  date,
   categoryId,
-  category: category.title,
+  category,
 });
 
 const fetchAll = async () => {
