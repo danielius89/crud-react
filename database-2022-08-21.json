@@ -1,0 +1,22 @@
+{
+  "news": [
+    {
+      "id": "1",
+      "title": "News title",
+      "description": "The Stranger Things writers' room has dropped their second script scene on Twitter following the heartbreak of Will Byers' (Noah Schnapp) crucial Van Scene. This week the writers released the script for an exchange that takes place in the Upside Down between Steve Harrington (Joe Keery) and Eddie Munson (Joseph Quinn), shortly after Steve is attacked by Demobats. While the creatives of Stranger Things have dubbed the scene 'Steve and Eddie in the woods,' this sincere moment may arguably be a turning point in the show for many fans who were rooting for Steddie.",
+      "category": "TV series",
+      "img": "https://geekified.net/wp-content/uploads/2019/07/stranger-things-eleven-papa-800x450.jpg",
+      "author": "Danielius",
+      "date": "2022-08-20"
+    },
+    {
+      "id": "2",
+      "title": "News titlee",
+      "description": "The Stranger Things writers' room has dropped their second script scene on Twitter following the heartbreak of Will Byers' (Noah Schnapp) crucial Van Scene. This week the writers released the script for an exchange that takes place in the Upside Down between Steve Harrington (Joe Keery) and Eddie Munson (Joseph Quinn), shortly after Steve is attacked by Demobats. While the creatives of Stranger Things have dubbed the scene 'Steve and Eddie in the woods,' this sincere moment may arguably be a turning point in the show for many fans who were rooting for Steddie.",
+      "category": "News",
+      "img": "https://geekified.net/wp-content/uploads/2019/07/stranger-things-eleven-papa-800x450.jpg",
+      "author": "Petriukas",
+      "date": "2022-08-21"
+    }
+  ]
+}

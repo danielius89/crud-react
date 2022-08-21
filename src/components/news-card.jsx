@@ -8,7 +8,8 @@ import Chip from '@mui/material/Chip';
 import Stack from '@mui/material/Stack';
 // import CssBaseline from '@mui/material/CssBaseline';
 import MovieIcon from '@mui/icons-material/Movie';
-import NewspaperIcon from '@mui/icons-material/Newspaper';
+import VideogameAssetIcon from '@mui/icons-material/VideogameAsset';
+import LiveTvIcon from '@mui/icons-material/LiveTv';
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -42,9 +43,20 @@ const NewsCard = ({
       </Typography>
 
       <Stack direction="row" spacing={1} paddingBottom={2}>
-        {category}
-        <Chip icon={<MovieIcon />} label="Filmai" />
-        <Chip icon={<NewspaperIcon />} label="Naujienos" />
+        {category === 'Games' ? (
+          <Chip icon={<VideogameAssetIcon />} label="Games" />
+        )
+          : ('')}
+
+        {category === 'Movies' ? (
+          <Chip icon={<MovieIcon />} label="Movies" />
+        )
+          : ('')}
+
+        {category === 'TV series' ? (
+          <Chip icon={<LiveTvIcon />} label="TV series" />
+        )
+          : ('')}
       </Stack>
 
       <Typography align="left">

@@ -17,7 +17,7 @@ const formatNews = ({
   author,
   date,
   categoryId,
-  category,
+  category: category.title,
 });
 
 const fetchAll = async () => {
